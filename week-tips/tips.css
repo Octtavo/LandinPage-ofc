@@ -1,0 +1,11 @@
+header{
+    margin-top: 20px;
+}
+main{
+    margin-top: 30px;
+}
+.accordion-item{
+    margin: 10px 10px 0px 10px;
+    border-top: 1px solid lightgray;
+    box-shadow: 4px 4px 3px 1px lightgray;
+}

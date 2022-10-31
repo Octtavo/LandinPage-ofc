@@ -1,0 +1,192 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+.accordion{
+    width: 300px;
+    margin-bottom: 26px;
+}
+@media only screen and (min-width: 250px) and (max-width: 750px) { 
+    /*FOR PHONES*/
+    main{
+        display: flex;
+        align-items: center;
+    }
+    #one-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    
+    }
+    #aparte{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 1900px){
+    /*FOR DESKTOP*/
+    #one-section{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    
+    }
+    #aparte{
+        margin-bottom: 10px;
+    }
+}
+
+/* configuraçao da area dos videos*/
+
+
+@media only screen and (min-width: 250px) and (max-width: 750px){ 
+    /*FOR PHONES*/
+    #area-videos{
+        display: flex;
+        flex-direction: column;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .video-aula{
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+    #title-videos{
+        font-size: 15px;
+        margin-top: 60px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 1900px) {
+    /*FOR DESKTOP*/
+    #area-videos{
+        display: flex;
+        flex-direction: column;
+    }
+    .videos{
+       display: flex;
+       justify-content: center;
+       margin: 0px;
+    }
+    .video-aula{
+        margin: 40px;
+    }
+    #title-videos{
+        font-size: 15px;
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+
+
+
+/* Configuração do form-feedback */
+
+
+/* FOR PHONES */
+@media only screen and (min-width: 250px) and (max-width: 790px){
+    #form-1{
+        margin-top: 50px;
+    }
+    #title-form-one{
+        font-size: 15px;
+        text-align: center;
+    }
+    #formulario-feedback{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(211, 211, 211, 0.692);
+        margin: auto;
+        margin-bottom: 15px;
+        width: 300px;
+        border-radius: 5px;
+        box-shadow:  -2px 2px 0px 2px rgba(0, 0, 255, 0.822);
+    }
+    #form{
+        margin: 10px;
+    }
+    .inputs-validations{
+        border: 1px solid  gray;
+        border-radius: 5px;
+        outline: 0px;
+        margin: 10px;
+        font-size: 10px;
+        height: 30px;
+        width: 229px;
+    }
+    #message{
+        height: 50px;
+    }
+    #send-email-button{
+        background-color: blue;
+        color: white;
+        border: 1px solid rgb(9, 9, 105);
+        border-radius: 5px;
+        width: 90px;
+    
+    }
+    #send-email-button:hover{
+        background-color: rgb(2, 2, 190);
+    }
+}
+
+/*FOR DESKTOP*/
+@media only screen and (min-width: 790px) and (max-width: 1900px) {
+    #form-1{
+        margin-top: 50px;
+    }
+    #title-form-one{
+        font-size: 15px;
+        text-align: center;
+    }
+    #formulario-feedback{
+        display: flex;
+        background-color: rgba(211, 211, 211, 0.692);
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        width: 300px;
+        box-shadow:  -2px 2px 0px 2px rgba(0, 0, 255, 0.822);
+    }
+    #form{
+        margin: 10px;
+    }
+    .inputs-validations{
+        border: 1px solid  gray;
+        border-radius: 5px;
+        outline: 0px;
+        margin: 10px;
+        font-size: 10px;
+        height: 30px;
+        width: 229px;
+    }
+    #message{
+        height: 50px;
+    }
+    #send-email-button{
+        background-color: blue;
+        color: white;
+        border: 1px solid rgb(9, 9, 105);
+        border-radius: 5px;
+        width: 90px;
+    
+    }
+    #send-email-button:hover{
+        background-color: rgb(2, 2, 190);
+    }
+}
+
+
+
+
+
+
+
